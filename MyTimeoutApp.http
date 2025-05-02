@@ -1,0 +1,6 @@
+@MyTimeoutApp_HostAddress = http://localhost:5208
+
+GET {{MyTimeoutApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
