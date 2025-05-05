@@ -1,0 +1,11 @@
+@quartz_job_poc_HostAddress = http://localhost:5287
+
+GET {{quartz_job_poc_HostAddress}}/test/
+Accept: application/json
+
+###
+
+GET {{quartz_job_poc_HostAddress}}/test-multiple/
+Accept: application/json
+
+###
